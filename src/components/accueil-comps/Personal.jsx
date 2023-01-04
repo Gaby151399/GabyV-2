@@ -22,7 +22,7 @@ export default function Personal() {
           <span className=' text-secondary'>Gaby Arson BINA</span>
         </p>
         <p className=' small'>
-          <strong>Addresse : </strong>
+          <strong>Address : </strong>
           <span className=' text-secondary'>Antananarivo Madagascar</span>
         </p>
 
