@@ -1,0 +1,59 @@
+.header{
+    background-image: url(/public/gaby.png);
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;                                  
+}
+.content-head{
+    padding: 20px 100px 160px;
+}
+.sociaux-head {
+    margin-bottom: 150px;
+}
+.sociaux-head button{
+    margin-right: 20px;
+    border: none;
+    background:none;
+}
+.sociaux-head button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.title h1{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    animation: changeColor linear infinite 20s;
+}
+@keyframes changeColor{
+    0%{color: #2eb3ff;}
+    50%{color: #000;}
+    100%{color: #2eb3ff;}
+}
+.title h4{
+    letter-spacing: 5px;
+}
+.print {
+    margin-top: 50px;
+}
+.print a{
+    text-decoration: none;
+    color: #ffff;
+    border-radius: 30px;
+    padding: 8px 10px 8px 10px;
+    background-color:#45bbff;
+}
+.print a:hover{
+    background-color:#2eb3ff;
+    transition: 0.3s;
+}
+@media screen and (max-width:500px) {
+    .content-head{
+        padding: 20px 10px 160px;
+    }
+    .header{
+        margin-top: 50px;
+    }
+}

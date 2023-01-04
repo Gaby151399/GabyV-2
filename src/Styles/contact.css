@@ -1,0 +1,39 @@
+.col-contact-title {
+  padding: 50px 0px 50px 0px;
+}
+.col-contact-from {
+  padding: 25px 0px 25px 0px;
+}
+.col-contact-from input {
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+}
+.btn-sub {
+  border: none;
+  border-radius: 5px;
+}
+.btn-sub:hover {
+  background-color: #01a2ff;
+  transition: 0.3s;
+}
+textarea {
+  outline: none;
+}
+
+@media screen and (max-width: 500px) {
+  form .row {
+    display: block;
+  }
+  form .row .col-4 {
+    width: 80%;
+  }
+  form .textarea {
+    padding-top: 20px;
+  }
+  form textarea {
+    column-span: 20px;
+  }
+}

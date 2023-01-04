@@ -1,0 +1,37 @@
+.resume{
+    padding: 50px;
+}
+.resume .col-perso{
+    width: 32%;
+}
+.experience h5{
+    color: #45bbff;
+}
+.loading-now{
+    animation: 3s linear infinite loading;
+}
+@keyframes loading {
+    0%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.8);
+    }
+}
+/*skills progress*/
+.pgb{
+    background-color: #45bbff;
+}
+
+@media screen and (max-width:500px) {
+    .resume .row{
+        display: block;
+    }
+    .resume .row .col-perso{
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+}

@@ -1,0 +1,35 @@
+.footer-basic{
+    background-color: #45bbff;
+}
+.sociaux-foot button{
+    margin-right: 20px;
+    border: none;
+    background:none;
+}
+.sociaux-foot button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.nav-item-foot a{
+    padding: 0px 15px 0px 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.nav-item-foot a:hover{
+    color: #ffff;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+.nav-item-foot a:active{
+    color: #45bbff;
+}
+@media screen and (max-width:500px) {
+    .nav-item-foot{
+        display: flex;
+    }
+    .nav-item-foot a{
+        font-size: 10px;
+    }
+}
