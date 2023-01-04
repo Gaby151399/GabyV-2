@@ -1,22 +1,23 @@
-.gabysWeb img:hover{
-    transform: scale(1.1);
-    transition: 0.2s;
+.gabysWeb img:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
 }
-.web a{
-    text-decoration: none;
+.web a {
+  text-decoration: none;
 }
-@media screen and (max-width:500px) {
-    
-    .projets .projets-row{
-        display: block;
-    }
-    .projets-row .col-5, .col-2, .col-3{
-        width: 100%;
-    }
-    .fleche{
-        display: none;
-    }
-    .web{
-        margin-top: 20px;
-    }
+@media screen and (max-width: 500px) {
+  .projets .projets-row {
+    display: block;
+  }
+  .projets-row .col-5,
+  .projets-row .col-2,
+  .projets-row .col-3 {
+    width: 100%;
+  }
+  .fleche {
+    display: none;
+  }
+  .web {
+    margin-top: 20px;
+  }
 }

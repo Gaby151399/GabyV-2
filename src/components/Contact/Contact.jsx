@@ -92,14 +92,14 @@ export default function Contact() {
                 }}
               />
             </div>
-            <div className='textarea col-4 text-center'>
+            <div className='textarea col-4 text-center align-items-center'>
               <textarea
                 className=' p-1'
                 name='message'
                 id='message'
                 placeholder='message'
-                cols='40'
-                rows='5'
+                cols='20'
+                rows='4'
                 value={textQuatre}
                 onChange={(e) => {
                   setTextQuatre(e.target.value);

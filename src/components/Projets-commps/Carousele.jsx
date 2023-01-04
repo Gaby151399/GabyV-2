@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
 
 export default function Carousele() {
-  return (<>
-  <div className="container">
-    <h4>Projets en cours</h4>
-    <img src="https://ikitiky-41893.web.app/static/media/empty.649aac8f.png" alt="empty" width={300} />
-  </div>
-  </>
-  )
+  return (
+    <>
+      <div className='container'>
+        <h4 className=' w-100 text-center'>Projets en cours</h4>
+        <img
+          src='empty.png'
+          alt='empty'
+          style={{ width: "100%" }}
+        />
+        <p>Pas de projets</p>
+      </div>
+    </>
+  );
 }
