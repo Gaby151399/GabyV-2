@@ -12,6 +12,7 @@
       }
     ],
     "compat-api/css": "off",
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "manifest-file-extension": "off"
   }
 }
