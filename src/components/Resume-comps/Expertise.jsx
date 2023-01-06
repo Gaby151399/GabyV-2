@@ -22,7 +22,7 @@ export default function Expertise() {
               className='loading-now'
               src='loading.png'
               alt='loading'
-              width={330}
+              width={300}
               height={200}
               title='loading'
             />
