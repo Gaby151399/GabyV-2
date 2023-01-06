@@ -3,6 +3,12 @@ import React from "react";
 export default function Header() {
   return (
     <div className='header container-xxl'>
+      <div className=' rondelles'>
+        <div className='rond-1'></div>
+        <div className='rond-2'></div>
+        <div className='rond-3'></div>
+        <div className='rond-4'></div>
+      </div>
       <div className='content-head'>
         <div
           className='sociaux-head'

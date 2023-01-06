@@ -8,7 +8,7 @@ export default function Accueil() {
   return (
     <>
       <div
-        className='about border-bottom border-secondary border-opacity-25'
+        className='about border-bottom border-secondary border-opacity-25 pt-5'
         id='about'>
         <div className=' container-xxl'>
           <div className='element-de-accueil row'>

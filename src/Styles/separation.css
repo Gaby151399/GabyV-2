@@ -1,0 +1,13 @@
+.rotate {
+  transform: rotate(-8deg);
+  position: absolute;
+  left: 50px;
+  width: 100%;
+  padding: 200px 0px 20px 0px;
+  background-color: #fff;
+}
+@media screen and (max-width: 500px) {
+  .rotate {
+    display: none;
+  }
+}

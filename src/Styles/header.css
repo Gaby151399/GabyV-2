@@ -55,11 +55,129 @@
   background-color: #2eb3ff;
   transition: 0.3s;
 }
+
+/*RONDELLES*/
+.rondelles .rond-1 {
+  position: absolute;
+  top: 20px;
+  right: 300px;
+  border-radius: 50%;
+  padding: 60px 60px 60px 60px;
+  background-color: #2eb2ffb0;
+  animation: 15s linear infinite rond-1;
+}
+@keyframes rond-1 {
+  0% {
+    background-color: #2eb2ffb0;
+  }
+  25% {
+    background-color: rgba(255, 228, 49, 0.705);
+  }
+  50% {
+    background-color: rgba(49, 255, 66, 0.591);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.648);
+  }
+  100% {
+    background-color: #2eb2ffb0;
+  }
+}
+
+.rondelles .rond-2 {
+  position: absolute;
+  top: 290px;
+  right: 400px;
+  border-radius: 50%;
+  padding: 50px 50px 50px 50px;
+  background-color: rgba(255, 228, 49, 0.705);
+  animation: 10s linear infinite rond-2;
+}
+@keyframes rond-2 {
+  0% {
+    background-color: rgba(255, 228, 49, 0.705);
+  }
+  25% {
+    background-color: #2eb2ffb0;
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.648);
+  }
+  75% {
+    background-color: rgba(49, 255, 66, 0.591);
+  }
+  100% {
+    background-color: rgba(255, 228, 49, 0.705);
+  }
+}
+
+.rondelles .rond-3 {
+  position: absolute;
+  right: 150px;
+  top: 350px;
+  border-radius: 50%;
+  padding: 150px 150px 150px 150px;
+  background-color: rgba(49, 255, 66, 0.591);
+  animation: 20s linear infinite rond-3;
+}
+@keyframes rond-3 {
+  0% {
+    background-color: rgba(49, 255, 66, 0.591);
+  }
+  25% {
+    background-color: #2eb2ffb0;
+  }
+  50% {
+    background-color: rgba(255, 228, 49, 0.705);
+  }
+  75% {
+    background-color: rgba(255, 255, 255, 0.648);
+  }
+  100% {
+    background-color: rgba(49, 255, 66, 0.591);
+  }
+}
+
+.rondelles .rond-4 {
+  position: absolute;
+  right: 100px;
+  top: 320px;
+  border-radius: 50%;
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(255, 255, 255, 0.648);
+  animation: 5s linear infinite rond-4;
+}
+@keyframes rond-4 {
+  0% {
+    background-color: rgba(255, 255, 255, 0.648);
+  }
+  25% {
+    background-color: rgba(255, 228, 49, 0.705);
+  }
+  50% {
+    background-color: rgba(49, 255, 66, 0.591);
+  }
+  75% {
+    background-color: #2eb2ffb0;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0.648);
+  }
+}
+
 @media screen and (max-width: 500px) {
   .content-head {
     padding: 20px 10px 160px;
   }
   .header {
     margin-top: 50px;
+  }
+  .rondelles {
+    display: none;
+  }
+}
+@media screen and (max-width: 780px) and (min-width: 500px) {
+  .rondelles {
+    display: none;
   }
 }
