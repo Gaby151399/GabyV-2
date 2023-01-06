@@ -4,11 +4,9 @@ import React, { useState } from "react";
 import RubberBand from "react-reveal/RubberBand";
 
 export default function Nav() {
-  const [navIcon, setNavIcon] = useState(false);
   const [navList, setNavList] = useState(false);
 
   const BtnNavMenu = () => {
-    setNavIcon(!navIcon);
     setNavList(!navList);
   };
 
@@ -21,23 +19,13 @@ export default function Nav() {
       <button
         className='hideBtn '
         onClick={BtnNavMenu}>
-        {navIcon ? (
-          <img
-            src='chevron-bar-down.svg'
-            alt='down'
-            title='down'
-            width={20}
-            height={20}
-          />
-        ) : (
-          <img
-            src='chevron-bar-up.svg'
-            alt='up'
-            title='down'
-            width={20}
-            height={20}
-          />
-        )}
+        <img
+          src='border-width.svg'
+          alt='down'
+          title='down'
+          width={20}
+          height={20}
+        />
       </button>
       {navList ? (
         <div className='navMobile pt-5 text-end'>
@@ -83,7 +71,7 @@ export default function Nav() {
 
       <RubberBand>
         <div className='name'>
-          <h1 className=' small'>Developpeur Front-end Madagacar</h1>
+          <h1 className=' small'>Developpeur Front-end à Madagacar</h1>
           <h2 className=' small text-blue'>Gaby Arson BINA</h2>
         </div>
       </RubberBand>

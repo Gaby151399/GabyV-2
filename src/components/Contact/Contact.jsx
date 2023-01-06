@@ -36,7 +36,7 @@ export default function Contact() {
 
   return (
     <div
-      className=' d-flex flex-column  border border-blue border-2 mb-5 bg-secondary bg-opacity-10'
+      className=' d-flex flex-column  border border-blue border-2 pb-5 bg-secondary bg-opacity-10'
       id='contact'>
       <div className='col-contact-title col-12 text-center align-self-center '>
         <h2>Contact</h2>

@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div
-      className='header'
-      id='accueil'>
+    <div className='header'>
       <div className='content-head'>
-        <div className='sociaux-head'>
+        <div
+          className='sociaux-head'
+          id='accueil'>
           <a
             href='https://www.facebook.com/gabyarsonbina'
             target='_blank'

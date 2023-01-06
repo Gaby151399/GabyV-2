@@ -9,7 +9,7 @@ export default function Expertise() {
           <h5>2020-2023</h5>
           <h6>Front-end</h6>
           <p className=' small'>
-            2ans d'experience sur la partie front du Developpement Web
+            3ans d'experience sur la partie front du Developpement Web
           </p>
         </div>
 
