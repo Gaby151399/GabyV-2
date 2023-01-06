@@ -8,7 +8,9 @@ export default function Carousele() {
         <img
           src='empty.png'
           alt='empty'
-          style={{ width: "100%" }}
+          width={300}
+          height={180}
+          title='empty'
         />
         <p>Pas de projets</p>
       </div>

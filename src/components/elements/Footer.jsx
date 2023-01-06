@@ -16,6 +16,8 @@ export default function Footer() {
                 src='facebook.svg'
                 alt='facebook'
                 width={20}
+                height={20}
+                title='facebook'
               />
             </button>
           </a>
@@ -28,6 +30,8 @@ export default function Footer() {
                 src='twitter.svg'
                 alt='twitter'
                 width={20}
+                height={20}
+                title='twitter'
               />
             </button>
           </a>
@@ -40,6 +44,8 @@ export default function Footer() {
                 src='youtube.svg'
                 alt='youtube'
                 width={20}
+                height={20}
+                title='youtube'
               />
             </button>
           </a>
@@ -52,6 +58,8 @@ export default function Footer() {
                 src='github.svg'
                 alt='github'
                 width={20}
+                height={20}
+                title='github'
               />
             </button>
           </a>

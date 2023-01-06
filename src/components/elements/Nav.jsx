@@ -27,6 +27,7 @@ export default function Nav() {
             alt='down'
             title='down'
             width={20}
+            height={20}
           />
         ) : (
           <img
@@ -34,6 +35,7 @@ export default function Nav() {
             alt='up'
             title='down'
             width={20}
+            height={20}
           />
         )}
       </button>

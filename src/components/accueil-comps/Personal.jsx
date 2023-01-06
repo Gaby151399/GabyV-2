@@ -32,6 +32,8 @@ export default function Personal() {
               src='facebook-2.svg'
               alt='facebook'
               width={20}
+              height={20}
+              title='facebook-2'
             />
           </button>
           <button>
@@ -39,6 +41,8 @@ export default function Personal() {
               src='twitter-2.svg'
               alt='twitter'
               width={20}
+              height={20}
+              title='twitter-2'
             />
           </button>
           <button>
@@ -46,6 +50,8 @@ export default function Personal() {
               src='youtube-2.svg'
               alt='youtube'
               width={20}
+              height={20}
+              title='youtube-2'
             />
           </button>
           <button>
@@ -53,6 +59,8 @@ export default function Personal() {
               src='github-2.svg'
               alt='github'
               width={20}
+              height={20}
+              title='github-2'
             />
           </button>
         </div>

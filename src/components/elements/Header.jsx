@@ -16,6 +16,8 @@ export default function Header() {
                 src='facebook.svg'
                 alt='facebook'
                 width={20}
+                height={20}
+                title='facebook'
               />
             </button>
           </a>
@@ -28,6 +30,8 @@ export default function Header() {
                 src='twitter.svg'
                 alt='twitter'
                 width={20}
+                height={20}
+                title='twitter'
               />
             </button>
           </a>
@@ -40,6 +44,8 @@ export default function Header() {
                 src='youtube.svg'
                 alt='youtube'
                 width={20}
+                height={20}
+                title='youtube'
               />
             </button>
           </a>
@@ -52,6 +58,8 @@ export default function Header() {
                 src='github.svg'
                 alt='github'
                 width={20}
+                height={20}
+                title='github'
               />
             </button>
           </a>
@@ -69,6 +77,8 @@ export default function Header() {
               src='printer.svg'
               alt='print'
               width={20}
+              height={20}
+              title='print'
             />{" "}
             Print Resume
           </a>

@@ -12,6 +12,8 @@ export default function Expertise() {
                 src='code-slash.svg'
                 alt='code'
                 width={40}
+                height={40}
+                title='code'
               />
             </div>
             <div className='col-10 align-self-center text-start'>
@@ -27,6 +29,8 @@ export default function Expertise() {
                 src='paint-bucket.svg'
                 alt='code'
                 width={40}
+                height={40}
+                title='paint'
               />
             </div>
             <div className='col-10 align-self-center text-start'>
