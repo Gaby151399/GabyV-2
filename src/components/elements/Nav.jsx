@@ -19,17 +19,21 @@ export default function Nav() {
   return (
     <div className='nav-elem border-bottom border-secondary border-2'>
       <button
-        className='hideBtn position-absolute end-0'
+        className='hideBtn '
         onClick={BtnNavMenu}>
         {navIcon ? (
           <img
             src='chevron-bar-down.svg'
             alt='down'
+            title='down'
+            width={20}
           />
         ) : (
           <img
             src='chevron-bar-up.svg'
             alt='up'
+            title='down'
+            width={20}
           />
         )}
       </button>
@@ -77,8 +81,8 @@ export default function Nav() {
 
       <RubberBand>
         <div className='name'>
-          <h3>Gaby Arson</h3>
-          <h6>Developpeur Front-end</h6>
+          <h1 className=' small'>Developpeur Front-end Madagacar</h1>
+          <h2 className=' small text-blue'>Gaby Arson BINA</h2>
         </div>
       </RubberBand>
 

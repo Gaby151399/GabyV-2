@@ -91,7 +91,7 @@ export default function Skills() {
             aria-valuemax='100'></div>
         </div>
 
-        <h5 className=' small fw-bold pt-2 text-uppercase'>Français</h5>
+        <h5 className=' small fw-bold pt-2 text-uppercase'>FRANÇAIS</h5>
         <div className='progress'>
           <div
             className='pgb progress-bar '

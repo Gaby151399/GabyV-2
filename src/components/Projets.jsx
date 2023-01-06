@@ -7,11 +7,11 @@ export default function Projets() {
       className='projets text-center mb-5 p-3'
       id='projets'>
       <div className='container-xxl border pb-4'>
-        <h1 className=' pb-5'>Mes Projets</h1>
+        <h2 className=' pb-5'>Mes Projets</h2>
         <div className='projets-row row text-center justify-content-center'>
           <ul className='list-group col-5 p-0'>
             <li className=' list-group-item text-start fw-bold'>
-              <h4>Liste des projets</h4>
+              <h3 className=' fs-4'>Liste des projets</h3>
             </li>
             <li className=' list-group-item text-start fw-bold'>
               Pizza Gold :{" "}

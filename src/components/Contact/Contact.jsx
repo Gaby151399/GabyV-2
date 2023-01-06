@@ -50,7 +50,7 @@ export default function Contact() {
 
       <div className=' col-contact-from col-12 text-center '>
         <div className='pre-form pb-3'>
-          <h5 className=' text-blue'>Pour me contacter</h5>
+          <h3 className=' text-blue fs-4'>Pour me contacter</h3>
         </div>
 
         <form

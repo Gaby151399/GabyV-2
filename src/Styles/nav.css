@@ -1,101 +1,104 @@
-.nav-elem{
-    padding: 20px 100px 20px 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    background-color: #fff;
-    border-bottom: 1px #000000;
-    z-index: 1;
+.nav-elem {
+  padding: 20px 100px 20px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px #000000;
+  z-index: 1;
 }
-.nav-item a{
-    padding: 0px 15px 0px 15px;
-    font-weight: 600;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+.nav-item a {
+  padding: 0px 15px 0px 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
-.nav-item a:hover{
-    color: #45bbff;
-    text-decoration: underline;
-    transition: 0.2s;
+.nav-item a:hover {
+  color: #45bbff;
+  text-decoration: underline;
+  transition: 0.2s;
 }
-.nav-item a:active{
-    color: #45bbff;
+.nav-item a:active {
+  color: #45bbff;
 }
-.hideBtn{
-    display: none;
-    border: none;
-    background: none;
+.hideBtn {
+  display: none;
+  border: none;
+  background: none;
 }
-.navMobile{
-    display: none;
+.navMobile {
+  display: none;
 }
-.name{
-    position: absolute;
-    top: 5px;
-    left: 43%;
-    text-align: center;
+.name {
+  position: absolute;
+  top: 5px;
+  left: 43%;
+  text-align: center;
 }
-.name h3{
-    color: rgba(0, 0, 0, 0.537);
-    font-size:larger;
+.name h3 {
+  color: rgba(0, 0, 0, 0.537);
+  font-size: larger;
 }
-.name h6{
-    color: #45bbff;
-    font-size: small;
+.name h6 {
+  color: #45bbff;
+  font-size: small;
 }
-.name-img{
-    position: absolute;
-    top: 1px;
-    left: 47%;
-    text-align: center;
-    border-radius: 50px;
+.name-img {
+  position: absolute;
+  top: 1px;
+  left: 47%;
+  text-align: center;
+  border-radius: 50px;
 }
 
-@media screen and (max-width:500px) {
-.nav-elem{
-   padding: 20px 100px 30px 100px;
-}
-.hideBtn{
+@media screen and (max-width: 500px) {
+  .nav-elem {
+    padding: 30px 100px 30px 100px;
+  }
+  .hideBtn {
     display: block;
-} 
-.nav-item{
+    position: absolute;
+    right: 2px;
+    top: 2px;
+  }
+  .nav-item {
     display: none;
-}
-.navMobile{
+  }
+  .navMobile {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    
-}
-.navMobile button{
+  }
+  .navMobile button {
     border: none;
     background: none;
-}
-.name{
+  }
+  .name {
     position: absolute;
     top: 5px;
-    left: 38%;
+    left: 23%;
     text-align: center;
-}
-.name h3{
+  }
+  .name h3 {
     font-size: 14px;
-}
-.name h6{
+  }
+  .name h6 {
     font-size: 10px;
+  }
 }
-}
-@media screen and (max-width:780px) and (min-width:500px) {
-    .nav-elem{
-        padding: 20px 50px 20px 50px;
-    }
-    .name{   
+@media screen and (max-width: 780px) and (min-width: 500px) {
+  .nav-elem {
+    padding: 20px 50px 20px 50px;
+  }
+  .name {
     position: absolute;
     top: 0px;
     left: 40%;
-    }
-    .name h3{
-        font-size: small;
-    }
+  }
+  .name h3 {
+    font-size: small;
+  }
 }
