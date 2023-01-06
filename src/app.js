@@ -15,7 +15,7 @@ import Global from "./components/Global";
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App '>
       <Nav />
       <Header />
       <Routes>

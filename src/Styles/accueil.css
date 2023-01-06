@@ -1,49 +1,44 @@
-.about{
-    border-top:solid black cubic-bezier(0,.36,1,0);
-}
 /*About-me*/
-.download{
-    border: 1px #45bbff solid;
-    color: #45bbff;
-    background: none;
-    border-radius: 5px;
-    padding: 8px 5px 8px 5px;
+.download {
+  border: 1px #45bbff solid;
+  color: #45bbff;
+  background: none;
+  border-radius: 5px;
+  padding: 8px 5px 8px 5px;
 }
-.download:hover{
-    background-color: #45bbff;
-    color: #ffff;
-    border: solid #fff 1px;
-    transition: 0.5s;
+.download:hover {
+  background-color: #45bbff;
+  color: #ffff;
+  border: solid #fff 1px;
+  transition: 0.5s;
 }
 /*Personal-info*/
 
-.sociaux button{
-    margin-right: 20px;
-    border: none;
-    background:none;
+.sociaux button {
+  margin-right: 20px;
+  border: none;
+  background: none;
 }
-.sociaux button:hover{
-    transform: scale(1.1);
-    transition: 0.2s;
+.sociaux button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
 }
-#col-4{
-    border-inline: solid rgba(0, 0, 0, 0.22) 1px;
+#col-4 {
+  border-inline: solid rgba(0, 0, 0, 0.22) 1px;
 }
 
 /*Expertise*/
 
-@media screen and (max-width:500px) {
-    .element-de-accueil{
-        display: block;
-    }
-    .element-de-accueil .col-4{
-        width: 100%;
-        padding: 20px 10px 20px 10px;
-
-    }
-    #col-4{
-        border-inline: none;
-        border-block: solid 1px rgba(0, 0, 0, 0.222);
-      
-    }
+@media screen and (max-width: 500px) {
+  .element-de-accueil {
+    display: block;
+  }
+  .element-de-accueil .col-4 {
+    width: 100%;
+    padding: 20px 10px 20px 10px;
+  }
+  #col-4 {
+    border-inline: none;
+    border-block: solid 1px rgba(0, 0, 0, 0.222);
+  }
 }

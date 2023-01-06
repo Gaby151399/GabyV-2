@@ -4,7 +4,7 @@ import Carousele from "./Projets-commps/Carousele";
 export default function Projets() {
   return (
     <div
-      className='projets text-center mb-5 p-3'
+      className='projets text-center mb-5'
       id='projets'>
       <div className='container-xxl border pb-4'>
         <h2 className=' pb-5'>Mes Projets</h2>

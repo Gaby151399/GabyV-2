@@ -7,7 +7,6 @@
   top: 0px;
   width: 100%;
   background-color: #fff;
-  border-bottom: 1px #000000;
   z-index: 1;
 }
 .nav-item a {
@@ -46,13 +45,6 @@
   color: #45bbff;
   font-size: small;
 }
-.name-img {
-  position: absolute;
-  top: 1px;
-  left: 47%;
-  text-align: center;
-  border-radius: 50px;
-}
 
 @media screen and (max-width: 500px) {
   .nav-elem {
@@ -71,6 +63,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .navMobile button {
     border: none;

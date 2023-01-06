@@ -21,3 +21,9 @@
     margin-top: 20px;
   }
 }
+@media screen and (max-width: 780px) and (min-width: 500px) {
+  .carousselle img {
+    width: 100%;
+    height: 100%;
+  }
+}

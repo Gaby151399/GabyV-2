@@ -4,3 +4,8 @@ html {
 .App {
   font-family: cursive;
 }
+@media screen and (max-width: 500px) {
+  .App {
+    font-family: sans-serif;
+  }
+}

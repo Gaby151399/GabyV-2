@@ -17,14 +17,16 @@ export default function Expertise() {
           <h5>2023...</h5>
           <h6>Backend</h6>
           <p className=' small wb-break'>Apprentissage en cours...</p>
-          <img
-            className='loading-now'
-            src='loading.png'
-            alt='loading'
-            width={330}
-            height={200}
-            title='loading'
-          />
+          <div className='image-load text-center'>
+            <img
+              className='loading-now'
+              src='loading.png'
+              alt='loading'
+              width={330}
+              height={200}
+              title='loading'
+            />
+          </div>
         </div>
       </div>
     </>

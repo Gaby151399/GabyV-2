@@ -15,7 +15,7 @@ export default function Nav() {
   };
 
   return (
-    <div className='nav-elem border-bottom border-secondary border-2'>
+    <div className='nav-elem container-xxl border-bottom border-secondary border-2 start-0 w-100'>
       <button
         className='hideBtn '
         onClick={BtnNavMenu}>
@@ -28,7 +28,7 @@ export default function Nav() {
         />
       </button>
       {navList ? (
-        <div className='navMobile pt-5 text-end'>
+        <div className='navMobile pt-5'>
           <button onClick={fermenav}>
             <a
               href='#accueil'
@@ -69,12 +69,12 @@ export default function Nav() {
         ""
       )}
 
-      <RubberBand>
-        <div className='name'>
+      <div className='name'>
+        <RubberBand>
           <h1 className=' small'>Developpeur Front-end à Madagacar</h1>
           <h2 className=' small text-blue'>Gaby Arson BINA</h2>
-        </div>
-      </RubberBand>
+        </RubberBand>
+      </div>
 
       <div className='nav-item'>
         <a href='#accueil'>Accueil</a>
